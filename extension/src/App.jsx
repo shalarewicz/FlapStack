@@ -328,7 +328,7 @@ const App = () => {
                   style={{
                     gridColumn: `${xDepth} / ${xDepth + 2}`,
                     gridRow: `${yDepth} / span 1`,
-                    animation: `example ${(Depth + yDepth) / 3}s linear 1`,
+                    animation: `example ${(xDepth + yDepth) / 3}s linear 1`,
                   }}
                   className="lineHorizontal"
                 ></div>

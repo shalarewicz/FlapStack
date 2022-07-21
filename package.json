@@ -5,7 +5,9 @@
     "react-scripts": "^5.0.1"
   },
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "move": "yarn build && rm -rf ../static && mv build/static ../static"
   },
   "browserslist": {
     "production": [
@@ -18,5 +20,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "create-react-app": "^5.0.1"
   }
 }
